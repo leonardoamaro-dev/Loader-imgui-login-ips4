@@ -1,7 +1,6 @@
 # Loader menu imgui with login integration IPS4
 
-Loader com menu imgui desenvolvido em c++ com a finalidade de ter uma integração de login com a ferramenta ips community 4 e um selecionardo de cheat ele contem 2 forms, login e selecionador.
-
+Loader with menu developed in c ++ using a login integration with the ips community of tools 4 and a fraud selector it has 2 forms, login and selector.
 ## Login Interface and Selector Interface:
 
 Screenshots:
