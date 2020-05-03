@@ -27,7 +27,7 @@ int main(int, char**)
     ImGui_ImplWin32_EnableDpiAwareness();
 
     // Create application window
-    WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("ImGui Example"), NULL };
+    WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("Loader By Leonardo Amaro"), NULL };
     ::RegisterClassEx(&wc);
     HWND hwnd = ::CreateWindow(wc.lpszClassName, _T("HardHax Loader"), WS_POPUP, 500, 100, 495, 320, NULL, NULL, wc.hInstance, NULL);
 

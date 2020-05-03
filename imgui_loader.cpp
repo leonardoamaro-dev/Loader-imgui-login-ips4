@@ -7,9 +7,9 @@ M47Z
 #define _CRT_SECURE_NO_WARNINGS
 #endif
 
-#include "C:\ProgramData\WindowsIncludes\http.h"
+#include "Loader C++/http.h"
 #include <cassert>
-#include "C:\ProgramData\WindowsIncludes\utils.h"
+#include "Loader C++/utils.h"
 #pragma comment(lib, "requests.lib")
 
 #include <iostream>
@@ -131,7 +131,7 @@ void ImGui::ShowLoader(bool* p_open) {
         const char * msgdesc;
 
         // SE NÃO ESTIVER LOGADO ABRE A TAB DE LOGIN
-        if (logado == 1 & 1)
+        if (logado == 0)
         {
             //RENDERIZAÇÃO DA TAB LOGIN
             if (ImGui::BeginTabItem("Login"))

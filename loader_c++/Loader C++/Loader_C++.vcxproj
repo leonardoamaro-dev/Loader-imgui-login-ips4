@@ -160,6 +160,8 @@
     <ClInclude Include="..\..\imgui_internal.h" />
     <ClInclude Include="..\imgui_impl_dx9.h" />
     <ClInclude Include="..\imgui_impl_win32.h" />
+    <ClInclude Include="http.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\misc\natvis\imgui.natvis" />
